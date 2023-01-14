@@ -1,0 +1,26 @@
+### test send get req with custom req param
+POST http://localhost:3000/api/orders
+Content-Type: application/json
+
+
+
+###
+GET http://localhost:3000/api/orders
+
+
+###
+POST http://localhost:3000/api/payments/pix
+Content-Type: application/json
+
+{
+    "payload": {
+        "amount": 100
+    },
+    "cart": {
+        "name": "test",
+        "email": "foo@gmail.com",
+        "total": 100
+    }
+    
+}
+

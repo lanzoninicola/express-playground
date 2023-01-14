@@ -1,0 +1,6 @@
+### test send get req with custom req param
+GET http://localhost:3000/api/users
+{ "foo": "bar" }
+
+###
+GET http://localhost:3000/api/animals
